@@ -1,6 +1,6 @@
 # GOKU
 
-" I feeling like GOKU!"  
+" I feel im like GOKU! "  -- Jaden Smith
 
 A golang toolbox, learning and accumulation.
 
