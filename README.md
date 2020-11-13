@@ -1,6 +1,8 @@
 # GOKU
 
-Golang toolbox
+" I feeling like GOKU!"  
+
+A golang toolbox, learning and accumulation.
 
 
 ## pkgtools
