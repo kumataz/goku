@@ -17,7 +17,7 @@ type Config struct{
 
 // Define INFO in here or Next Step
 var cfg Config = Config{
-    name: "kawayi",
+    name: "kawavi",
     age: "20",
     bornDate: "20000101",
     interest: "game",
