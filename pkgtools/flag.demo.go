@@ -1,4 +1,4 @@
-package main
+package pkgtools
 
 import (
   "flag"
@@ -33,8 +33,10 @@ func init(){
 }
 
 
+/*
 func main(){
     // TODO parse from command
     flag.Parse()
     fmt.Printf("Name: %s\nAge: %s\nDate: %s\nInterest: %s\n", cfg.name, cfg.age, cfg.bornDate, cfg.interest)
 }
+*/

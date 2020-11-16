@@ -1,4 +1,3 @@
-// 调用Linux命令行返回输出结果
 package pkgtools
 
 import (
@@ -8,7 +7,8 @@ import (
 )
 
 
-func main() {
+// Get linux-command and return work result
+func ParseCMD() {
 	input := "ls -l"
 	cmd := exec.Command("/bin/bash", "-c", input)
 	// Create get command output pipeline
