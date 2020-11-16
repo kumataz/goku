@@ -1,17 +1,18 @@
 # GOKU
 
-" I feel im like GOKU! "  -- Jaden Smith
-
-A golang toolbox, learning and accumulation.
+" I feel im like GOKU! "
+-- A Golang Toolbox by Kumata, learning and accumulation.
 
 
 ## pkgtools
 
-- `linux_cmd.go`: call linux cmd by golang  
-- `file.go`: file
+- `linux_cmd.go`: get cmd'info and return worked return
+- `flag.demo.go`: get cmd'parameter and init variable
+- `file.go`: file op
 - `format`: data op
-- `http.go`: httpserver  
-- `timeout.go`: set loop timeout  
+- `http.go`: httpserver demo
+- `timeout.go`: set loop timeout
+
 
 
 ## crypto
