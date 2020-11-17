@@ -4,6 +4,10 @@
 -- A Golang Toolbox by Kumata, learning and accumulation.
 
 
+## practice
+
+- `array.slice.go`: array and slice analysis
+
 ## pkgtools
 
 - `linux_cmd.go`: get cmd'info and return worked return
@@ -12,7 +16,6 @@
 - `format`: data op
 - `http.go`: httpserver demo
 - `timeout.go`: set loop timeout
-
 
 
 ## crypto
