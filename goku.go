@@ -9,11 +9,8 @@ import(
 
 
 func main() {
-
-    SliceAppend()
-
+    SliceRange()
 }
-
 
 
 
