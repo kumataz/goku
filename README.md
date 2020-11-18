@@ -3,11 +3,6 @@
 " I feel im like GOKU! "
 -- A Golang Toolbox by Kumata, learning and accumulation.
 
-
-## practice
-
-- `array.slice.go`: array and slice analysis
-
 ## pkgtools
 
 - `linux_cmd.go`: get cmd'info and return worked return
@@ -17,6 +12,10 @@
 - `http.go`: httpserver demo
 - `timeout.go`: set loop timeout
 
+## practice
+
+- `array.slice.go`: array and slice analysis
+- `map.go`: map example
 
 ## crypto
 
