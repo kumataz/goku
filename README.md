@@ -1,7 +1,9 @@
 # GOKU
 
+A golang toolbox by Kumata, learning and accumulation.  
+
 " I feel im like GOKU! "
--- A Golang Toolbox by Kumata, learning and accumulation.
+
 
 ## pkgtools
 
