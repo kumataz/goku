@@ -2,15 +2,13 @@
 
 A golang toolbox by Kumata, learning and accumulation.  
 
-" I feel im like GOKU! "
-
 
 ## pkgtools
 
 - `linux_cmd.go`: get cmd'info and return worked return
 - `flag.demo.go`: get cmd'parameter and init variable
 - `file.go`: file op
-- `format`: data op
+- `format.go`: data op
 - `http.go`: httpserver demo
 - `timeout.go`: set loop timeout
 
