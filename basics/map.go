@@ -1,5 +1,5 @@
 
-package practice
+package basics
 
 import(
     "fmt"

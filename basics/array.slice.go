@@ -1,4 +1,4 @@
-package practice
+package basics
 
 import(
     "fmt"
@@ -35,7 +35,7 @@ func SliceCreate(){
     var s3 []string
     fmt.Printf("s3: %s\n", s3)
     // Method4：大概知道需要多少元素时使用，搭配 append 使用
-    s4 := make([]string, 0, 5)  
+    s4 := make([]string, 0, 5)
     fmt.Printf("s4: %s\n", s4)       // len=0 cap=5, []
 }
 
@@ -58,7 +58,7 @@ func SliceCut() {
 func SliceAppend(){
     s1 := make([]string, 0, 10)
     fmt.Println(len(s1), cap(s1), s1)            // [] 0 10
-    // s1[7] = "Hong"  -- fail   
+    // s1[7] = "Hong"  -- fail
 
     // slice expand(< 本体)
     s1 = append(s1, "Ming")

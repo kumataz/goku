@@ -1,4 +1,4 @@
-package pkgtools
+package gokupkg
 
 import (
     "fmt"
@@ -11,7 +11,7 @@ import (
 
 /* 加密 encryption */
 
-// net 
+// net
 func GetMacAddrs()(string,error){
       netInterfaces, err := net.Interfaces()
       if err != nil {
@@ -61,5 +61,3 @@ func StrFormat32(raw ,sub string,slen int) string {
          return raw
      }
  }
-
-

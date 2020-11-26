@@ -1,4 +1,4 @@
-package pkgtools
+package gokupkg
 
 import (
 	"os/exec"
@@ -17,25 +17,25 @@ func ParseCMD() {
 		fmt.Printf("Error:can not obtain stdout pipe for command:%s\n", err)
 	return
 	}
-	
+
 	// execute cmd
 	if err := cmd.Start(); err != nil {
 		fmt.Println("Error:The command is err,", err)
 	return
 	}
-	
+
 	// read all ouput
 	bytes, err := ioutil.ReadAll(stdout)
 	if err != nil {
 		fmt.Println("ReadAll Stdout:", err.Error())
 	return
 	}
-	
+
 	if err := cmd.Wait(); err != nil {
 		fmt.Println("wait:", err.Error())
 	return
 	}
-	
+
 	// output
 	fmt.Printf("%s\n", bytes)
 }

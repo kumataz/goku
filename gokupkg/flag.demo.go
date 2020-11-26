@@ -1,4 +1,4 @@
-package pkgtools
+package gokupkg
 
 import (
   "flag"

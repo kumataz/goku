@@ -1,10 +1,10 @@
-package pkgtools
+package gokupkg
 
 import (
 	"fmt"
 	"time"
 )
- 
+
 func main() {
 	// loop 5 s
 	timeout := time.After(time.Second * 5)
@@ -14,26 +14,25 @@ func main() {
 		for {
 			select {
 			case <-timeout:
-				// time out message 
+				// time out message
 				fmt.Println("timeout")
 				finish <- true
 				return
 			default:
-			
-				// loop in it 
+
+				// loop in it
 				// loooooooooooop ~
 				for{
 					fmt.Printf("go~~ %d\n", count)
 				}
-				
+
 			}
 			// ouput 1 round/s
 			time.Sleep(time.Second * 1)
 		}
 	}()
- 
+
 	<-finish
- 
+
 	fmt.Println("done!")
 }
-

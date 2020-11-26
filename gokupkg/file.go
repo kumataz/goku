@@ -1,4 +1,4 @@
-package pkgtools
+package gokupkg
 
 import (
 	"fmt"
@@ -63,6 +63,3 @@ func GetFileInfos(fileName string) {
         fmt.Println("modTime:",fi.ModTime())
     }
 }
-
-
-

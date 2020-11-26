@@ -3,7 +3,7 @@
 A golang toolbox by Kumata, learning and accumulation.  
 
 
-## pkgtools
+## gokupkg
 
 - `linux_cmd.go`: get cmd'info and return worked return
 - `flag.demo.go`: get cmd'parameter and init variable
@@ -12,7 +12,7 @@ A golang toolbox by Kumata, learning and accumulation.
 - `http.go`: httpserver demo
 - `timeout.go`: set loop timeout
 
-## practice
+## basics
 
 - `array.slice.go`: array and slice analysis
 - `map.go`: map example

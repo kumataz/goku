@@ -1,4 +1,4 @@
-package pkgtools
+package gokupkg
 
 import (
 	"log"
@@ -10,7 +10,7 @@ import (
 
 /*
 
-HTTP DEMO, but generally use frames like beego, gin .. 
+HTTP DEMO, but generally use frames like beego, gin ..
 
 */
 
@@ -43,4 +43,3 @@ func Http_server(w http.ResponseWriter, r *http.Request) {
 //    fmt.Fprintln(w, string(data)) //output json
 
 }
-
