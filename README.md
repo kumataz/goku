@@ -3,6 +3,13 @@
 A golang toolbox by Kumata, learning and accumulation.  
 
 
+## crypto
+
+- `aes_example.go`: aes internal function  
+- `sha256_redesign.go`: sha256 internal function, src code rewriting  
+- `sha3_256_example.go`: SHA3-256 and Keccak256 example
+- `sha3_256_useByLinuxCMD.go`: use Keccak256 by Linux command)  
+
 ## gokupkg
 
 - `linux_cmd.go`: get cmd'info and return worked return
@@ -16,14 +23,6 @@ A golang toolbox by Kumata, learning and accumulation.
 
 - `array.slice.go`: array and slice analysis
 - `map.go`: map example
-
-## crypto
-
-- `aes.go`: aes internal function  
-- `sha256_source.go`: sha256 internal function, src code rewriting  
-- `sha3_256 keccak.go`: use keccak-256 by golang(call linux cmd)  
-- `sha3_256.go`: use FIPS standard SHA3-256（keccak)  
-
 
 ## embedded
 

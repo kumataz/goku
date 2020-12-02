@@ -3,31 +3,20 @@ package main
 
 import(
     "fmt"
-    "errors"
+    "gotools/crypto"
     // . "goku/basics"
 )
 
-
-
-func EchoEmpty(request string)(response string, err error){
-    if request == ""{
-        err = errors.New("Can not empty!")
-        return
-    }
-    response = fmt.Sprintf("Echo: %s\n", request)
-    return
+// "abc"
+var TEST = [3]byte{
+	0x61, 0x62, 0x63,
 }
 
 
+func main(){
+	keccak_hash := crypto.Keccak256(TEST[:])
+	fmt.Printf("Keccak-256: %+02x\n", keccak_hash)
 
-func main() {
-    for _, req := range []string{"", "hello!"} {
-      fmt.Printf("request: %s\n", req)
-      resp, err := Echo(req)
-      if err != nil {
-        fmt.Printf("error: %s\n", err)
-        continue
-      }
-      fmt.Printf("response: %s\n", resp)
-    }
+    sha3_hash := crypto.Sha3_256(TEST[:])
+    fmt.Printf("  SHA3-256: %+02x\n", sha3_hash)
 }
