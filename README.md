@@ -4,7 +4,7 @@ A golang toolbox by Kumata, learning and accumulation.
 
 ## Directory
 
-本项目主要用`internal`目录收集自定义包并存档，在`cmd`项目主干中运行调试，其余目录为出于强迫症而建立的一个项目工程化结构。
+本项目主要用`internal`目录收集自用的包作为kit-tool存档，在`cmd`项目主干中运行调试，其余目录为出于强迫症而建立的一个标准项目工程化结构。
 
 ```
 .
