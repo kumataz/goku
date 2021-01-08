@@ -1,4 +1,4 @@
-module gotools
+module goku
 
 go 1.13
 

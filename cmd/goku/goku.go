@@ -3,7 +3,7 @@ package main
 
 import(
     "fmt"
-    "gotools/crypto"
+    "goku/internal/crypto"
     // . "goku/basics"
 )
 
