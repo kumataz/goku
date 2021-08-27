@@ -9,5 +9,5 @@ import(
 
 
 func main(){
-	fmt.Println("go")
+	fmt.Println("i feeling like goku!")
 }
