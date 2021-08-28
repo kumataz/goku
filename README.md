@@ -32,7 +32,7 @@ A golang toolbox by Kumata, learning and accumulation.
 │   │   └── sha3_256_useByLinuxCMD.go    // use Keccak256 by Linux command
 │   ├── embedded
 │   │   └── port.go                      // use serial port
-│   └── gokupkg
+│   └── lil_tools
 │       ├── file.go                      // file op
 │       ├── flag.demo.go                 // get cmd'parameter and init variable
 │       ├── format.go                    // data op
