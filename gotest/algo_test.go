@@ -6,10 +6,15 @@ import (
 	"fmt"
 )
 
+// fibonacci 
+func TestFibonacci(t *testing.T)  {
+	algo.Fibonacci(10)
+}
 
-
-func TestAlog(t *testing.T){
-	arr := []int{12, 2, 52, 41, 4, 7, 15, 56, 10, 51}
-	result := algo.SearchOrder(arr, 7)
-	fmt.Printf("result: %d\n", result)
+// fibonacci closure way
+func TestFibonacciClousure(t *testing.T){
+	f := algo.FibonacciClosure()
+	for i:=0; i<10; i++{
+		fmt.Println(f())
+	}
 }
