@@ -2,37 +2,17 @@
 package main
 
 import (
-	// "goku/internal/algo"
+	"goku/internal/algo"
 	"fmt"
 )
-
-// type Key struct{
-//     k1 int
-//     k2 int
-// }
-
-// type Value struct{
-//     v1 string
-//     v2 string
-// }
 
 
 func main(){
 
-    // mm := make(map[Key]Value)
-    // mm[
-    //     Key{
-    //         0, 1,
-    //     }] = Value{
-    //         "rnm", "wdnmd",
-    //         }
-    // fmt.Println(mm)
+    arr := []int{10, 4, 41, 12, 32, 5, 22, 1, 6, 11}
+    fmt.Println(arr)
 
-    m := map[int]string{
-        0: "wdnmd",
-        1: "sasasa",
-    }
-
-    fmt.Println(m)
+    result := algo.BubbleSortOpt1(arr)
+    fmt.Printf("result: %d\n", result)
 
 }
